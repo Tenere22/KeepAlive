@@ -1,9 +1,14 @@
 #!/bin/bash
-# ************************************************************###
-# home automation script to keep alive the internet connectivity
-# Here we have 3 actions to be taken if a test fail.
-# Feel free to adapt the script as you need.
-#*******  V1.0.1 by Tenere22 *********************************###
+# GNU bash, version 5.1.8(1)-release (x86_64-pc-linux-gnu)
+***********************************************************************###
+# Home automation script to keep alive the internet connectivity 
+# 
+# 3 automated actions to be taken if a test fails.
+# scenario: WLAN0 connected INTERNET / WLAN1 hotspot managed NetworkManager
+#
+# This is free software; you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+#*******  V1.0.1 by Tenere22 ******************************************###
 #
 export TERM=xterm-256color
 internet='8.8.8.8'      # IP google DNS for internet test
